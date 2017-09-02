@@ -17,6 +17,8 @@ What we did
 How we did it
 ----
 !(dda-setup)[https://raw.github.com/hughito/datadrivenart-2017/master/docs/dda-setup.png]
+
+
 私たちは
 *
 *
