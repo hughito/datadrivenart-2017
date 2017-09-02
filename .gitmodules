@@ -1,3 +1,9 @@
 [submodule "dda_1"]
 	path = dda_1
 	url = https://github.com/hughito/dda_1
+[submodule "ofxOpenBCI"]
+	path = ofxOpenBCI
+	url = https://github.com/kentoids/ofxOpenBCI
+[submodule "OpenBCI_GUI"]
+	path = OpenBCI_GUI
+	url = https://github.com/kentoids/OpenBCI_GUI
