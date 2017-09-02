@@ -17,6 +17,7 @@ What we did
 How we did it
 ----
 !(dda-setup)[/docs/dda-setup.png]
+
 私たちは
 *
 *
