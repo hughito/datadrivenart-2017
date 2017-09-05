@@ -12,7 +12,7 @@ Team HUGHITO
 
 What we did
 ----
-![dda-example](https://raw.github.com/hughito/datadrivenart-2017/master/docs/dda-example.png)
+![dda-example](https://raw.github.com/hughito/datadrivenart-2017/master/docs/dda-example.jpg)
 
 OpenBCIを利用して、物と人のハグにおける脳波の変化のデータを取得し、ビジュアライズする映像作品を作り上げた。	
 
