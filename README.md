@@ -14,7 +14,7 @@ What we did
 ----
 ![dda-example](https://raw.github.com/hughito/datadrivenart-2017/master/docs/dda-example.png)
 
-
+OpenBCIを利用して、物と人のハグにおける脳波の変化のデータを取得し、ビジュアライズする映像作品を作り上げた。	
 
 How we did it
 ----
@@ -31,7 +31,7 @@ How we did it
 
 Our setup consisted of 
 * TOP RIGHT : Openframeworks - To visualize the incoming data via OpenBCI through osc and remove some of the noise created by creating an average of the overall data throughout time. This data is then sent to Max 7 to filter again before sending to Wekinator. OF was also used to visualize video playback and also for sending accurate numbers to arduino IDE.
-* * Creation of ofxOpenBCI through this.
+* * Creation of [ofxOpenBCI](http://github.com/kentoids/ofxOpenBCI) through this.
 * BOTTOM RIGHT: Max 7 - To filter the incoming data via OpenBCI to readable 126 data and also slice the incoming channel number from the data
 * TOP LEFT : Wekinator - To create a machine learning model of the data and also be able to test the model against other various hugs. This data is then sent to OpenFrameworks again to be able to use the output int for video playback and arduino controlling.
 * BOTTOM LEFT : OpenBCI Control Panel
