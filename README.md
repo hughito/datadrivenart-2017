@@ -5,9 +5,9 @@
 
 Team HUGHITO
 =====
-* 森田健人 Kento Morita (@kentoids)
-* 小林颯 Hayate Kobayashi (@hytk)
-* 清水快　Kye Shimizu (@kkshmz)
+* 森田健人 Kento Morita (@kentoids) →
+* 小林颯 Hayate Kobayashi (@hytk)　→
+* 清水快　Kye Shimizu (@kkshmz)　→
 
 
 What we did
@@ -20,6 +20,8 @@ What we did
 
 How we did it
 ----
+![dda-system](https://raw.github.com/hughito/datadrivenart-2017/master/docs/dda-system-100.jpg)
+
 ![dda-setup](https://raw.github.com/hughito/datadrivenart-2017/master/docs/dda-setup.png)
 
 * TOP RIGHT : Openframeworks - OpenBCIによって獲得されたデータをoscで受け取り、ノイズ処理するとともに、各チャンネルの近似値を出すために使用し、その処理されたデータをまたoscでWekinatorに送る。また、最終的にMaxから来たデータをArduinoへ信号をおくるために、映像へビジュアライズされるために使用。
@@ -28,5 +30,5 @@ How we did it
 * TOP LEFT : Wekinator - OpenBCIのデータを使用して、モデルを作成するためのツールとして使用。
 * Arduino - 人間バルーンを制御するために使用し、値をOpenframeworksから獲得する。
 
-![dda-system](https://raw.github.com/hughito/datadrivenart-2017/master/docs/dda-system-100.jpg)
+感想はreview.txtを参照してください。
 
